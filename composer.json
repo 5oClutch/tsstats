@@ -1,0 +1,26 @@
+{
+    "name": "nisarg/ts3stats",
+    "description": "Allows you to connect to ts3stats-api to get all the statistics of your teamspeak server.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "cvuorinen/phpdoc-markdown-public": "^0.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nisarg",
+            "email": "emailtonisarg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ts3stats\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ts3stats\\Test\\": "tests"
+        }
+    }
+}
