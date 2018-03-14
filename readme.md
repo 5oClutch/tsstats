@@ -1,6 +1,6 @@
 # Ts3Stats
 
-<p align="center"><a href="https://travis-ci.org/5oClutch/ts3stats"><img src="https://travis-ci.org/5oClutch/ts3stats.svg?branch=master"></a></p>
+<p align="center"><a href="https://travis-ci.org/5oClutch/tsstats"><img src="https://travis-ci.org/5oClutch/tsstats.svg?branch=master"></a></p>
 
 Ts3Stats is a library that allows you to connect to my api which will allow you to get your TeamSpeak data.
 
