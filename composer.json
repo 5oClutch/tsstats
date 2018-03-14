@@ -15,12 +15,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ts3stats\\": "src"
+            "nisarg\\ts3stats\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ts3stats\\Test\\": "tests"
+            "nisarg\\ts3stats\\\\Test\\": "tests"
         }
     }
 }

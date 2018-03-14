@@ -1,6 +1,6 @@
 <?php
 
-namespace Ts3stats;
+namespace nisarg\ts3stats;
 use GuzzleHttp\Client;
 
 /**
@@ -41,9 +41,9 @@ class TeamSpeakStatistics
     }
 
     /**
-     * 
+     *
      * Check if the server has any data in the database.
-     * 
+     *
      *
      * @param   string $server Teamspeak server ip
      * @example examples/checkServerData.php 6 2 checkServerData Example
@@ -92,7 +92,7 @@ class TeamSpeakStatistics
      * Get the average players on the teamspeak server today.
      *
      * @param   string $server Teamspeak server ip
-     * @example examples/currentDayAverage.php 6 2 currentDayAverage Example 
+     * @example examples/currentDayAverage.php 6 2 currentDayAverage Example
      */
     public function currentDayAverage($server)
     {
