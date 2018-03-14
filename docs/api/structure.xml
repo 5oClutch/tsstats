@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="TeamSpeakStatistics.php" generated-path="TeamSpeakStatistics.html" hash="ffe476b77376ef41c447627c42f50655" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Client">\GuzzleHttp\Client</namespace-alias>
+    <class final="false" abstract="false" namespace="Ts3stats" line="11" package="Default">
+      <extends/>
+      <name>TeamSpeakStatistics</name>
+      <full_name>\Ts3stats\TeamSpeakStatistics</full_name>
+      <docblock line="11">
+        <description>Here is where we can add the servers to the api,
+and get all the Teamspeak server user data.</description>
+        <long-description>Teamspeak server data updates every 30 minutes</long-description>
+        <tag name="package" line="11" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="17" package="Default">
+        <name>__construct</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::__construct()</full_name>
+        <docblock line="17">
+          <description>Create a new TeamSpeakStatistics Instance</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="28" package="Default">
+        <name>addServer</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::addServer()</full_name>
+        <docblock line="28">
+          <description>Send server ip to the api start getting the teamspeak stats.</description>
+          <long-description></long-description>
+          <tag name="param" line="28" description="&lt;p&gt;Teamspeak server ip&lt;/p&gt;" type="string" variable="$server">
+            <type>string</type>
+          </tag>
+          <tag name="example" line="28" description="addServer Example"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$server</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="50" package="Default">
+        <name>checkServerData</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::checkServerData()</full_name>
+        <docblock line="50">
+          <description>Check if the server has any data in the database.</description>
+          <long-description></long-description>
+          <tag name="param" line="50" description="&lt;p&gt;Teamspeak server ip&lt;/p&gt;" type="string" variable="$server">
+            <type>string</type>
+          </tag>
+          <tag name="example" line="50" description="checkServerData Example"/>
+          <tag name="return" line="50" description="" type="boolean">
+            <type>boolean</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$server</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="69" package="Default">
+        <name>getServerClients</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::getServerClients()</full_name>
+        <docblock line="69">
+          <description>Get all that data of the clients on the server from the api.</description>
+          <long-description></long-description>
+          <tag name="param" line="69" description="&lt;p&gt;Teamspeak server ip&lt;/p&gt;" type="string" variable="$server">
+            <type>string</type>
+          </tag>
+          <tag name="example" line="69" description="getServerClients Example"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$server</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="82" package="Default">
+        <name>getServerClientsGraph</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::getServerClientsGraph()</full_name>
+        <docblock line="82">
+          <description>Get all that data of the clients on the server from the api in graphical representation.</description>
+          <long-description></long-description>
+          <tag name="param" line="82" description="&lt;p&gt;Teamspeak server ip&lt;/p&gt;" type="string" variable="$server">
+            <type>string</type>
+          </tag>
+          <tag name="example" line="82" description="getServerClientsGraph Example"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$server</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Ts3stats" line="95" package="Default">
+        <name>currentDayAverage</name>
+        <full_name>\Ts3stats\TeamSpeakStatistics::currentDayAverage()</full_name>
+        <docblock line="95">
+          <description>Get the average players on the teamspeak server today.</description>
+          <long-description></long-description>
+          <tag name="param" line="95" description="&lt;p&gt;Teamspeak server ip&lt;/p&gt;" type="string" variable="$server">
+            <type>string</type>
+          </tag>
+          <tag name="example" line="95" description="currentDayAverage Example"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$server</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJy9VktP20AQvlvyfxghJCcRxFWReoCGPqCivZSqya1F0WJPEhdnd7u7hgaU/97ZRxInxCog6MXezHvm+3act+/kREYRZ1PUkmUIA32gDTP6KKo0wll1e1viZ2Pkz5OyQG6OoijtdKIOfEaFUGi4mdjDDULGOLA8BzNB0KiuUWkwwv1kstgjF8ZzGKMBVpZOPEA21RLZVbAHyqggZ4Z1yfqe1iqgkvRCDUiSGRy8gmnBKxJEnTTKSqa18+tbvz61UWhTZDq6iyIAWzdAB04UUghgwPFmmzV84TQBnqG1Tukhq8uyyGBU8cwUgsNwmAkyUVVmWm3Su+jzeoo+Uquh7ELWxgAUWRk7BVPwsZOaVZ927l0bwAV5L5liUwCSK2u8GwLeG0whvT3+YVNZIoS3TgmOvjPpEsjwBl7DUgKfvFFTj0vDVkjrGo3pATBBlpMiORHcECX2BzOJh9SdpAjMeqe/tOBJ+8hZ72aOONBz8/Ysai10ilhHs0TSBrv9Y4W/K9Sm5ZMBJN/O+4NkD5IJ0fAwTU1gaNdcpTRS26UvkWx+BB/yGgk1HboR6gR6xzUVKYODlYf+9pbqi3C68AVQqe6t0FSKr0rePyYUP4p81mq7Y5iG9r3N4yj2hIg96SaYXUExql0PmDBNd2LmiV1wp7LnS6ax69zixxIhbmBCZtN7QE/t/VrwYUO+YEUIE1q+FKJExp0wjbeQZSPKkjLxijMNLIibaUAjbTVBnkB3MYV2DYcQLk0fzNCFQ70CqxrmmIkcW+toryDeVvlj/IpR3QSVEgp6PdgJl/NU0Ir7KgzhQTuJFhKcVwq+U2yVEwP0TvtucTsCRsmIlRqTEH4e1ymb0KoKqrUtdbbcxcx4EgrPTw+BBsHrdB0pMV3ssefcUjQg37ZnhV6Sc1Pxr521ab+2up62i55CwifsyK27ZWOhPA9wds+MFZMTKqOkvJJSkosr6SVBPbM5G5F12sfC65xeEOOk24jug/DaAMwBQNHYGEGWbGb/HwWczOZYjcjZ7DnhyCqlqLZTNvvgS1h9ATY1CxigCYd7Huv7/kUvGp2SlF2PUzeh5L/cu3n0FwmPjwk=</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="Ts3stats" full_name="Ts3stats"/>
+  <deprecated count="0"/>
+</project>
