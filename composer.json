@@ -3,7 +3,8 @@
     "description": "Allows you to connect to ts3stats-api to get all the statistics of your teamspeak server.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.0"
     },
     "license": "MIT",
     "authors": [
